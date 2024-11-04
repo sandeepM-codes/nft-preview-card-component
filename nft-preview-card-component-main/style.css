@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1a2d;
+  min-height: 100vh;
+}
+.container {
+  max-width: 350px;
+  height: 630px;
+  background-color: #15273f;
+  position: absolute;
+  margin: auto;
+  inset: 0px;
+  border-radius: 10px;
+  padding: 23px;
+}
+.container img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+.container h2 {
+  font-family: "Outfit";
+  color: white;
+  font-size: 1.5rem;
+}
+.container h5 {
+  font-family: "Outfit";
+  color: #637792;
+  font-size: 18px;
+  font-weight: 100;
+}
+.outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-box-1,
+.inner-box-2 {
+  display: flex;
+  align-items: center;
+}
+.inner-box-1,
+.inner-box-2 img {
+  width: 100%;
+  max-width: 15px;
+}
+.inner-box-1 p {
+  color: #00fcf6;
+  margin-left: 8px;
+}
+.hu-img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+.last-box {
+  display: flex;
+  align-items: center;
+}
+.last-para {
+  margin-left: 10px;
+}
+.name {
+  color: white;
+}
+.image-equ{
+    background-image: url(./assets/image-equilibrium.jpg);
+    width: 100%;
+    height: 300px;
+  max-width: 500px;
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity:0.8;
+ 
+}
+.image-cover
+{
+    background-image: url(./assets/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: 130px ;
+    width: 100%;
+    height: 300px;
+  max-width: 300px;
+  border-radius: 8px;
+  opacity: 0;
+ 
+  
+}
+.image-cover:hover{
+    opacity: 0.7;
+    background-color: #1dd0cd;
+    
+}
